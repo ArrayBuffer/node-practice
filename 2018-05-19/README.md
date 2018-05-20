@@ -1,6 +1,10 @@
 在node中如何实现路由功能？
 
-在 `req` 中有两个关键的属性：`url` 和 `headers`，其中 `url` 为当前请求的路径，`headers` 是请求头里面的一些信息。
+在 `req` 中有两个关键的属性：
+
+`url` ： 为当前请求的路径；  
+`headers` : 是请求头里面的一些信息；  
+`method` : 请求方法
 
 直观的感受一下 `req.headers`
 
@@ -26,3 +30,8 @@
 ```
 
 所以想做路由的话，在于解析 `req.url`
+
+```
+router.verb()
+router.all()
+```
