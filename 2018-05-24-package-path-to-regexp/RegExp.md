@@ -1,0 +1,1 @@
+[RegExp.prototype.exec](http://www.w3school.com.cn/jsref/jsref_exec_regexp.asp)说明
